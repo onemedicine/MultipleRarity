@@ -29,3 +29,6 @@ After approve this contract, you can use the contract to adventure with multiple
 
 可配合网站：https://rarity-game.netlify.app/, 观察自己所有角色的ID和冒险冷却时间
 
+
+点属性，探宝：https://rarity-adventures.surge.sh/
+
