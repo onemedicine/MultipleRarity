@@ -22,7 +22,10 @@ After approve this contract, you can use the contract to adventure with multiple
 > * _summoners: 填多个角色id，例[21,22,23,24,25,26]
 注: *须当角色冒险时间已到，并且approve过给该合约*
 
-其他功能multiple_spend_xp，multiple_level_up同样支持了多角色，自行使用。
 
 ![image](https://user-images.githubusercontent.com/20993492/132503821-be600618-4e33-453b-84bd-c7750465a85e.png)
+
+其他功能multiple_spend_xp，multiple_level_up同样支持了多角色，自行使用。
+
+可配合网站：https://rarity-game.netlify.app/, 观察自己所有角色的ID和冒险冷却时间
 
