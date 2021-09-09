@@ -76,7 +76,8 @@ rarity web:https://rarity.game/
 DFarm推出的模拟器（模拟加点及模拟探索）:https://dfarm.club/rarity.html
 
 yyds!
-![Uploading c1cb5c91cdf5d59843eba041ff1ee09.png…]()
+![c1cb5c91cdf5d59843eba041ff1ee09](https://user-images.githubusercontent.com/20993492/132671153-4983bb11-aa17-4436-8bad-e549c133d5e4.png)
+
 
 
 ### 前端（按实用性排序，前端交互需注意账号风险）
