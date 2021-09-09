@@ -72,6 +72,13 @@ rarity web:https://rarity.game/
 > 
 > 圣骑士、术士、诗人对魅力要求很高，说实话这个设定有些看不懂，牧师也可以添加一些，据说可以在冒险时驱散不死族的怪物。
 
+### 加点模拟器
+DFarm推出的模拟器（模拟加点及模拟探索）:https://dfarm.club/rarity.html
+
+yyds!
+![Uploading c1cb5c91cdf5d59843eba041ff1ee09.png…]()
+
+
 ### 前端（按实用性排序，前端交互需注意账号风险）
 
   AC推特推荐：https://rarity.game/
