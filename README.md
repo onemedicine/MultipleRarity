@@ -55,24 +55,25 @@ web:https://rarity.game/
 
 ### 前端（按实用性排序，前端交互需注意账号风险）
 
-AC推特推荐：https://rarity.game/
+  AC推特推荐：https://rarity.game/
 
-非常简洁（支持加点，探宝）：http://rarity-adventures.surge.sh/
+  非常简洁（支持加点，探宝）：http://rarity-adventures.surge.sh/
 
-批量展示，升级方便：https://rarity-game.netlify.app/
+  批量展示，升级方便：https://rarity-game.netlify.app/
 
-复古风格：https://adventure.major.tax/
+  复古风格：https://adventure.major.tax/
 
-有更完整的角色UI：https://www.raritymanifested.com/
+  有更完整的角色UI：https://www.raritymanifested.com/
 
-红黑复古风：https://rarity-visualizer-ui.vercel.app/
+  红黑复古风：https://rarity-visualizer-ui.vercel.app/
 
-与第一个类似：https://rarity-xyz.surge.sh/
+  与第一个类似：https://rarity-xyz.surge.sh/
 
 ### 教程
 
-基础规则：https://weibo.com/ttarticle/p/show?id=2309404679169673134323
-新手入门：https://weibo.com/ttarticle/p/show?id=2309404678445002260494
+  基础规则：https://weibo.com/ttarticle/p/show?id=2309404679169673134323
+
+  新手入门：https://weibo.com/ttarticle/p/show?id=2309404678445002260494
 
 
 ### 获取FTM
@@ -80,10 +81,12 @@ AC推特推荐：https://rarity.game/
 #### 跨链（建议从BSC，Ploygon，xdai跨过来，整体手续费不高）
 
   https://cbridge.celer.network/#/
+  
   https://stable.anyswap.exchange/#/swap
+  
   https://spookyswap.finance/swap
 
 #### 交易所
 
-币安不定时开放提币，还是建议不要去太小众的交易所
+  币安不定时开放提币，还是建议不要去太小众的交易所
 
