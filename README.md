@@ -56,11 +56,17 @@ web:https://rarity.game/
 ### 前端（按实用性排序，前端交互需注意账号风险）
 
 AC推特推荐：https://rarity.game/
+
 非常简洁（支持加点，探宝）：http://rarity-adventures.surge.sh/
+
 批量展示，升级方便：https://rarity-game.netlify.app/
+
 复古风格：https://adventure.major.tax/
+
 有更完整的角色UI：https://www.raritymanifested.com/
+
 红黑复古风：https://rarity-visualizer-ui.vercel.app/
+
 与第一个类似：https://rarity-xyz.surge.sh/
 
 ### 教程
