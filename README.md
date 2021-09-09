@@ -1,9 +1,11 @@
 # MultipleRarity
 After approve this contract, you can use the contract to adventure with multiple characters at the same time
 
+rarity web:https://rarity.game/
+
 [rarity: 0xce761D788DF608BD21bdd59d6f4B54b2e27F25Bb](https://ftmscan.com/address/0xce761d788df608bd21bdd59d6f4b54b2e27f25bb#code)
 
-web:https://rarity.game/
+
 
 [MultipleRarity: 0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3](https://ftmscan.com/address/0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3#code)
 
@@ -12,6 +14,7 @@ web:https://rarity.game/
 第一次使用需要先approve
 ### 如何approve：
 [在浏览器打开rarity](https://ftmscan.com/address/0xce761d788df608bd21bdd59d6f4b54b2e27f25bb#writeContract)
+
 1.调用approve(授权)
 > * to: 填写MultipleRarity合约地址: 0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3
 > * tokenId: 填写你拥有的角色id
@@ -20,9 +23,10 @@ web:https://rarity.game/
 
 ### 如何使用该合约：
 [在浏览器打开MultipleRarity](https://ftmscan.com/address/0xb3e2dea302f43df164758f1a8ded7ac6c87741b3#writeContract)
+
 1.调用multiple_adventure(多角色同时冒险)
 > * _summoners: 填多个角色id，例[21,22,23,24,25,26]
-注: *须当角色冒险时间已到，并且approve过给该合约*
+  注: *须当角色冒险时间已到，并且approve过给该合约*
 
 
 ![image](https://user-images.githubusercontent.com/20993492/132503821-be600618-4e33-453b-84bd-c7750465a85e.png)
@@ -38,18 +42,14 @@ web:https://rarity.game/
 ### 角色加点如何分配
 > * 力量
 对力量值需求重要的职业有五个，分别是战士、野蛮人、圣骑士、游侠、僧人
-
 > * 敏捷
 盗贼对敏捷的需求是重中之重，游戏中应该会有负重类的限制，类似重甲、轻甲的护甲装备，官方推荐游侠、野蛮人、巫师、术士、僧人都可以配置一些敏捷点数。
-
 > * 体质
 因为体质关系直接影响到人物的生命值和健康状态，所以对所有职业阵营都很重要。
-
 > * 魔力
 这个属性特别影响巫师，巫师类似游戏中的魔法师对施法的需求非常的迫切，如果你想你的角色有很多的法术技能搭配也可以分配一些魔力给他。
 > * 智慧
 和生活中的智慧是同样重要的，如果你想你的角色对冒险中发生的事情非常敏感的话，可以为他添加些许智慧。牧师、德鲁伊这两个职业对该属性要求较高，圣骑士和游侠也可以将该属性作为副属性分配。
-
 > * 魅力
 圣骑士、术士、诗人对魅力要求很高，说实话这个设定有些看不懂，牧师也可以添加一些，据说可以在冒险时驱散不死族的怪物。
 
