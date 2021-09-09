@@ -79,9 +79,9 @@ AC推特推荐：https://rarity.game/
 
 #### 跨链（建议从BSC，Ploygon，xdai跨过来，整体手续费不高）
 
-https://cbridge.celer.network/#/
-https://stable.anyswap.exchange/#/swap
-https://spookyswap.finance/swap
+  https://cbridge.celer.network/#/
+  https://stable.anyswap.exchange/#/swap
+  https://spookyswap.finance/swap
 
 #### 交易所
 
