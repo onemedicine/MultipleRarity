@@ -109,3 +109,5 @@ rarity web:https://rarity.game/
 
   币安不定时开放提币，还是建议不要去太小众的交易所
 
+### claim token
+当角色达到2级可以领金币
