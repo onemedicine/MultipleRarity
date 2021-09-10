@@ -1,3 +1,7 @@
+## 旧MultipleRarity合约(0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3)批量升级方法（multiple_level_up）写错，请勿调用其批量升级！其他接口不受影响！
+
+## 已发布新的合约做了修复：[0x8788f32939ff2a8eb014877fc734ff77aa8aa148](https://ftmscan.com/address/0x8788f32939ff2a8eb014877fc734ff77aa8aa148)
+
 # MultipleRarity
 After approve this contract, you can use the contract to adventure with multiple characters at the same time
 
@@ -9,8 +13,7 @@ After approve this contract, you can use the contract to adventure with multiple
 
 
 
-[MultipleRarity: 0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3](https://ftmscan.com/address/0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3#code)
-
+[MultipleRarity: 0x8788f32939ff2a8eb014877fc734ff77aa8aa148](https://ftmscan.com/address/0x8788f32939ff2a8eb014877fc734ff77aa8aa148#code)
 
 
 *第一次使用需要先approve*
@@ -18,21 +21,21 @@ After approve this contract, you can use the contract to adventure with multiple
 [在区块浏览器打开rarity](https://ftmscan.com/address/0xce761d788df608bd21bdd59d6f4b54b2e27f25bb#writeContract)
 
 1.调用setApprovalForAll(一键授权所有)
-> * operator: 填写MultipleRarity合约地址: 0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3
+> * operator: 填写MultipleRarity合约地址: 0x8788f32939ff2a8eb014877fc734ff77aa8aa148
 > * approved: 填写true
 
-![image](https://user-images.githubusercontent.com/20993492/132617874-214bb754-c480-4779-9f38-27930f9fddc6.png)
+![image](https://user-images.githubusercontent.com/20993492/132890380-678de795-7be2-4299-a7e1-d26cd2870ce2.png)
 
 2.调用approve(单个角色授权)
-> * to: 填写MultipleRarity合约地址: 0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3
+> * to: 填写MultipleRarity合约地址: 0x8788f32939ff2a8eb014877fc734ff77aa8aa148
 > * tokenId: 填写你拥有的角色id
 
-![image](https://user-images.githubusercontent.com/20993492/132502933-8f3f048c-8500-4bea-96bc-3353f22ef8ad.png)
+![image](https://user-images.githubusercontent.com/20993492/132890454-3faa4f68-b273-45f3-8882-babaaf1e3261.png)
 
 
 
 ### 如何使用该合约：
-[在区块浏览器打开MultipleRarity](https://ftmscan.com/address/0xb3e2dea302f43df164758f1a8ded7ac6c87741b3#writeContract)
+[在区块浏览器打开MultipleRarity](https://ftmscan.com/address/0x8788f32939ff2a8eb014877fc734ff77aa8aa148#writeContract)
 
 1.调用multiple_adventure(多角色同时冒险)
 > * _summoners: 填多个角色id，例[21,22,23,24,25,26]
