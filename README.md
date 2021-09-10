@@ -50,6 +50,7 @@ rarity web:https://rarity.game/
 
 
 ------
+
 ## 其他
 ### 角色加点如何分配
 > * 力量
@@ -76,6 +77,10 @@ rarity web:https://rarity.game/
 > 
 > 圣骑士、术士、诗人对魅力要求很高，说实话这个设定有些看不懂，牧师也可以添加一些，据说可以在冒险时驱散不死族的怪物。
 
+![7987b24183449a48bbddafa41bb6431](https://user-images.githubusercontent.com/20993492/132791736-a1e52cd5-9996-4fc6-bc78-f3d0d75c6d15.png)
+
+
+
 ### 加点模拟器
 DFarm推出的模拟器（模拟加点及模拟探索）:https://dfarm.club/rarity.html
 
@@ -99,6 +104,7 @@ yyds!
   红黑复古风：https://rarity-visualizer-ui.vercel.app/
 
   与第一个类似：https://rarity-xyz.surge.sh/
+
 
 ### 教程
 
