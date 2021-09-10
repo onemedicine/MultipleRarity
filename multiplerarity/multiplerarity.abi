@@ -1,0 +1,46 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "_summoners",
+				"type": "uint256[]"
+			}
+		],
+		"name": "multiple_adventure",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "_summoners",
+				"type": "uint256[]"
+			}
+		],
+		"name": "multiple_level_up",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "_summoners",
+				"type": "uint256[]"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "_xps",
+				"type": "uint256[]"
+			}
+		],
+		"name": "multiple_spend_xp",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
