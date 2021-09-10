@@ -1,6 +1,7 @@
 ## 旧MultipleRarity合约(0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3)批量升级方法（multiple_level_up）写错，请勿调用其批量升级！其他接口不受影响！
 
 ## 已发布新的合约做了修复：[0x8788f32939ff2a8eb014877fc734ff77aa8aa148](https://ftmscan.com/address/0x8788f32939ff2a8eb014877fc734ff77aa8aa148)
+## 感谢[DFarm](https://weibo.com/u/6112840709)及时指出错误, 非常抱歉给大家带来使用不便。
 
 # MultipleRarity
 After approve this contract, you can use the contract to adventure with multiple characters at the same time
