@@ -69,7 +69,7 @@ func init() {
 		log.Fatalf("Failed to instantiate Rarity contract: %v", err)
 	}
 
-	MultipleRarity, err = multiplerarity.NewMultiplerarity(common.HexToAddress("0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3"), Client)
+	MultipleRarity, err = multiplerarity.NewMultiplerarity(common.HexToAddress("0x8788f32939ff2A8eb014877fC734fF77aA8AA148"), Client)
 	if err != nil {
 		log.Fatalf("Failed to instantiate MultipleRarity contract: %v", err)
 	}
