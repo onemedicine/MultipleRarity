@@ -6,7 +6,7 @@
 ### 感谢[DFarm](https://weibo.com/u/6112840709)及时指出错误, 非常抱歉给大家带来使用不便。
 
 
-After approve this contract, you can use the contract to adventure with multiple characters at the same time
+------
 
 **rarity web**:https://rarity.game/
 
