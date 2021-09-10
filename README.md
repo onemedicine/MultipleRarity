@@ -54,7 +54,12 @@ After approve this contract, you can use the contract to adventure with multiple
 ------
 
 ## 其他
-### 角色加点如何分配
+### 角色属性加点如何分配
+
+[medium原文](https://andrecronje.medium.com/rarity-attributes-19ff3cd457c8)
+
+[rarity_attributes合约](https://ftmscan.com/address/0xb5f5af1087a8da62a23b08c00c6ec9af21f397a1)
+
 > * 力量(Strength)
 > 
 > 对力量值需求重要的职业有五个，分别是战士、野蛮人、圣骑士、游侠、僧人
