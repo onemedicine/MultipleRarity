@@ -34,7 +34,11 @@ rarity web:https://rarity.game/
 
 1.调用multiple_adventure(多角色同时冒险)
 > * _summoners: 填多个角色id，例[21,22,23,24,25,26]
-  注: *须当角色冒险时间已到，并且approve过给该合约*
+> 
+> 注: *须当角色冒险时间已到，并且approve过给该合约*
+> 
+> *FTM 矿工现在的block gaslimit太小了，太多角色容易超出block gaslimit，单次操作的角色数量控制在130以内最好; 同时矿工却还不断提高 minimum gas price，这就有点不厚道了*
+  
 
 
 ![image](https://user-images.githubusercontent.com/20993492/132503821-be600618-4e33-453b-84bd-c7750465a85e.png)
