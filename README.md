@@ -15,7 +15,7 @@ After approve this contract, you can use the contract to adventure with multiple
 
 *第一次使用需要先approve*
 ### 如何approve：
-[在浏览器打开rarity](https://ftmscan.com/address/0xce761d788df608bd21bdd59d6f4b54b2e27f25bb#writeContract)
+[在区块浏览器打开rarity](https://ftmscan.com/address/0xce761d788df608bd21bdd59d6f4b54b2e27f25bb#writeContract)
 
 1.调用setApprovalForAll(一键授权所有)
 > * operator: 填写MultipleRarity合约地址: 0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3
@@ -32,7 +32,7 @@ After approve this contract, you can use the contract to adventure with multiple
 
 
 ### 如何使用该合约：
-[在浏览器打开MultipleRarity](https://ftmscan.com/address/0xb3e2dea302f43df164758f1a8ded7ac6c87741b3#writeContract)
+[在区块浏览器打开MultipleRarity](https://ftmscan.com/address/0xb3e2dea302f43df164758f1a8ded7ac6c87741b3#writeContract)
 
 1.调用multiple_adventure(多角色同时冒险)
 > * _summoners: 填多个角色id，例[21,22,23,24,25,26]
@@ -130,3 +130,7 @@ yyds!
 
 ### claim token
 当角色达到2级可以领金币
+
+[在区块浏览器打开rarity_gold](https://ftmscan.com/address/0x2069B76Afe6b734Fb65D1d099E7ec64ee9CC76B2#writeContract
+![image](https://user-images.githubusercontent.com/20993492/132827633-68807f22-cbdc-473b-a0bc-7be80d76c61e.png)
+
