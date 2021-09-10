@@ -29,7 +29,7 @@ contract MultipleRarity {
     
     function multiple_level_up( uint[] calldata _summoners) external {
         for (uint256 i = 0; i < _summoners.length; i++)
-            _rarity.adventure(_summoners[i]);
+            _rarity.level_up(_summoners[i]);
     }
      
 }
