@@ -84,6 +84,15 @@ After approve this contract, you can use the contract to adventure with multiple
 > 
 > 圣骑士、术士、诗人对魅力要求很高，说实话这个设定有些看不懂，牧师也可以添加一些，据说可以在冒险时驱散不死族的怪物。
 
+属性默认每个8级，角色初始32点可在此基础上分配，每升4级获得1点可分配
+9-14，每升1级消耗1点，该阶段完成消耗6点
+15-16，每升1级消耗2点，该阶段完成消耗4
+17-18，每升1级消耗3点，该阶段完成消耗6
+19-20，每升1级消耗4点，该阶段完成消耗8
+....
+
+![image](https://user-images.githubusercontent.com/20993492/132832050-4f893437-89e8-47f7-8977-2cb44b3b2ab2.png)
+
 
 
 
