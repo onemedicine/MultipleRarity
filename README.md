@@ -131,6 +131,6 @@ yyds!
 ### claim token
 当角色达到2级可以领金币
 
-[在区块浏览器打开rarity_gold](https://ftmscan.com/address/0x2069B76Afe6b734Fb65D1d099E7ec64ee9CC76B2#writeContract
+[在区块浏览器打开rarity_gold](https://ftmscan.com/address/0x2069B76Afe6b734Fb65D1d099E7ec64ee9CC76B2#writeContract)
 ![image](https://user-images.githubusercontent.com/20993492/132827633-68807f22-cbdc-473b-a0bc-7be80d76c61e.png)
 
