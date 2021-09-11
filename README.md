@@ -1,10 +1,10 @@
 # MultipleRarity
 
 ### 又又又更新了！
-### MultipleRarity最新版：[0x8accaa4b940eafc41b33159027cdbdb4a567d442]https://ftmscan.com/address/0x8accaa4b940eafc41b33159027cdbdb4a567d442#writeContract
+### MultipleRarity最新版:[0x8ACcaa4b940eaFC41b33159027cDBDb4A567d442](https://ftmscan.com/address/0x8accaa4b940eafc41b33159027cdbdb4a567d442#writeContract)
 > * 注：角色冷却时间不统一时，可以不用管能不能冒险或升级，合约内部加了筛选，但消耗的gas增加了一点点，介意的可以使用常规修复版。
 
-### MultipleRarity常规修复版：[0x8788f32939ff2a8eb014877fc734ff77aa8aa148](https://ftmscan.com/address/0x8788f32939ff2a8eb014877fc734ff77aa8aa148)
+### MultipleRarity常规修复版:[0x8788f32939ff2a8eb014877fc734ff77aa8aa148](https://ftmscan.com/address/0x8788f32939ff2a8eb014877fc734ff77aa8aa148)
 
 **[旧MultipleRarity合约](https://ftmscan.com/address/0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3)批量升级方法写错，请勿调用其批量升级！其他接口不受影响！**
 ### 感谢[DFarm](https://weibo.com/u/6112840709)及时指出合约错误, 非常抱歉给大家带来使用不便。
