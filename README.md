@@ -116,6 +116,12 @@ DFarm推出的模拟器（模拟加点及模拟探索）:https://dfarm.club/rari
 yyds!
 ![c1cb5c91cdf5d59843eba041ff1ee09](https://user-images.githubusercontent.com/20993492/132671153-4983bb11-aa17-4436-8bad-e549c133d5e4.png)
 
+### 角色交易市场
+**raritysea**:https://www.raritysea.io/
+
+*高等级的角色后期一定是影响价格的主要因素，坚持冒险吧！*
+
+![image](https://user-images.githubusercontent.com/20993492/132943146-62ddb89f-aeaf-451d-95b2-9e8e24942a27.png)
 
 
 ### 前端（按实用性排序，前端交互需注意账号风险）
