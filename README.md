@@ -99,12 +99,14 @@
 用到了下面两个网址：
 
 > * 1.查看角色列表（当用脚本批量点属性时，可按职业筛选）：https://rarity-game.netlify.app/
+> 
 > 方法是：在该页面Ctrl+A，Ctrl+C 复制拿到所有文字信息，使用正则筛选出id
 > 
 ![image](https://user-images.githubusercontent.com/20993492/132995223-5450f389-c563-4e27-9bac-740fb64aa6d5.png)
 
 
 > * 2.在线正则：https://tool.lu/regex/
+> 
 > 用到的正则表达式：#[1-9]\d*
 
 ![image](https://user-images.githubusercontent.com/20993492/132995342-7be37782-d43b-4c23-aed0-96753d7f38d7.png)
