@@ -1,15 +1,39 @@
 # MultipleRarity
 
-### 发呆时意识到一个严重问题，rarity是单纯基于角色构建的游戏模式，授权也意味着针对角色，那么其他任意账户也可以操作别人对合约授权过的角色，好处是：多账户方便太多了，坏处是：我曾加了个multiple_spend_xp，但spend_xp()玩法还不明，万一别人要是恶意消耗我的角色经验就完蛋了呀(::>_<::)。我已经再改了，并且增加多角色claim gold和下地牢打材料，但是希望大家**务必立刻马上取消对三个旧合约的授权**！！！
+
+#### 发呆时意识到一个严重问题，rarity是单纯基于角色构建的游戏模式，授权也意味着针对角色，那么其他任意账户也可以操作别人对合约授权过的角色，好处是：多账户的话方便太多了；坏处是：我曾加了个multiple_spend_xp，但spend_xp()玩法还不明，万一别人要是恶意消耗我的角色经验就完蛋了呀(::>_<::)。我已经改了，并且增加多角色claim gold和下地牢打材料，但是希望大家**务必立刻马上取消对三个旧合约的授权**！！！
 
 ### 更新说明
 
-> * 更新中
+合约地址：[0x4a33076916289486cdc975ee28ef4041a5e5702a](https://ftmscan.com/address/0x4a33076916289486cdc975ee28ef4041a5e5702a#writeContract)
 
-
-
+> * 所有接口增加授权判断
+> 
+> * 仅限角色的owner调用multiple_spend_xp()
+> 
+> * 增加批量claim gold 接口multiple_claim_gold()
+> 
+> * 增加批量打第一个地牢副本接口multiple_adventure_crafting_materials()
+> 
+> * 增加自毁接口destroy()，若发现批量接口被恶意利用，我将销毁合约，省去大家撤销授权的麻烦
 
 ------
+
+
+### 使用说明
+
+> * 1.按需调用对应的授权接口
+> 
+> * 2.批量冒险multiple_adventure()，批量升级multiple_level_up()，也可用自己的一个热账户去为其他冷钱包账户的角色冒险升级（急缺好心人啊）
+> 
+> * 3.批量领金币multiple_claim_gold()，rarity_gold合约原因，仅支持调用approve为角色授权
+> 
+> * 4.批量打地牢multiple_adventure_crafting_materials()，rarity_crafting_materials合约原因，仅支持调用approve为角色授权
+> 
+> * 5.批量消耗经验multiple_spend_xp(), 猜想将来AC肯定有其他合约调用该接口实现某种玩法，应该永远不会单独排上用场了，留着仅为把自己挖的坑给埋上。
+
+------
+
 
 **rarity web**:https://rarity.game/
 
@@ -17,7 +41,7 @@
 
 [rarity: 0xce761D788DF608BD21bdd59d6f4B54b2e27F25Bb](https://ftmscan.com/address/0xce761d788df608bd21bdd59d6f4b54b2e27f25bb#code)
 
-
+------
 
 ## *重中之重，如何approve和撤销approve！！！*
 
@@ -30,13 +54,17 @@
 > * operator: 填写使用该接口授权过的合约地址
 > * approved: 填写false
 
-旧合约地址：
+> 旧合约地址：
+> 
+> 0x8ACcaa4b940eaFC41b33159027cDBDb4A567d442
+>
+>0x8788f32939ff2a8eb014877fc734ff77aa8aa148
+>
+>0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3
 
-0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3
 
-0x8788f32939ff2a8eb014877fc734ff77aa8aa148
 
-0x8ACcaa4b940eaFC41b33159027cDBDb4A567d442
+
 
 
 2.调用approve(单个角色授权)
@@ -53,21 +81,13 @@
 [在区块浏览器打开rarity](https://ftmscan.com/address/0xce761d788df608bd21bdd59d6f4b54b2e27f25bb#writeContract)
 
 1.调用setApprovalForAll(一键授权所有)
-> * operator: 填写MultipleRarity合约地址: 
+> * operator: 填写MultipleRarity合约地址: 0x4a33076916289486cdc975ee28ef4041a5e5702a
 > * approved: 填写true
 
 
 2.调用approve(单个角色授权)
-> * to: 填写MultipleRarity合约地址: 
+> * to: 填写MultipleRarity合约地址: 0x4a33076916289486cdc975ee28ef4041a5e5702a
 > * tokenId: 填写你拥有的角色id
-
-
-
-
-### 使用说明
-
-> * 更新中
-
 
 
 ------
