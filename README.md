@@ -1,13 +1,12 @@
 # MultipleRarity
 
-### 又又又更新了！
-### MultipleRarity最新版:[0x8ACcaa4b940eaFC41b33159027cDBDb4A567d442](https://ftmscan.com/address/0x8accaa4b940eafc41b33159027cdbdb4a567d442#writeContract)
-> * 注：角色冷却时间不统一时，可以不用管能不能冒险或升级，合约内部加了筛选，但消耗的gas增加了一点点，介意的可以使用常规修复版。
+### 发呆时意识到一个严重问题，rarity是单纯基于角色构建的游戏模式，授权也意味着针对角色，那么其他任意账户也可以操作别人对合约授权过的角色，好处是：多账户方便太多了，坏处是：我曾加了个multiple_spend_xp，但spend_xp()玩法还不明，万一别人要是恶意消耗我的角色经验就完蛋了呀(::>_<::)。我已经再改了，并且增加多角色claim gold和下地牢打材料，但是希望大家**务必立刻马上取消对三个旧合约的授权**！！！
 
-### MultipleRarity常规修复版:[0x8788f32939ff2a8eb014877fc734ff77aa8aa148](https://ftmscan.com/address/0x8788f32939ff2a8eb014877fc734ff77aa8aa148)
+### 更新说明
 
-**[旧MultipleRarity合约](https://ftmscan.com/address/0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3)批量升级方法写错，请勿调用其批量升级！其他接口不受影响！**
-### 感谢[DFarm](https://weibo.com/u/6112840709)及时指出合约错误, 非常抱歉给大家带来使用不便。
+> * 更新中
+
+
 
 
 ------
@@ -20,44 +19,48 @@
 
 
 
-[MultipleRarity: 0x8788f32939ff2a8eb014877fc734ff77aa8aa148](https://ftmscan.com/address/0x8788f32939ff2a8eb014877fc734ff77aa8aa148#code)
+## *重中之重，如何approve和撤销approve！！！*
+
+***setApprovalForAll 和 approve并不相通，意味着使用approve的单个角色并不能通过setApprovalForAll来撤销，换句话说调哪个接口授权的就还调那个接口撤销***
+
+### 如何撤销approve：
+[在区块浏览器打开rarity](https://ftmscan.com/address/0xce761d788df608bd21bdd59d6f4b54b2e27f25bb#writeContract)
+
+1.调用setApprovalForAll(撤销曾一键所有授权)
+> * operator: 填写使用该接口授权过的合约地址
+> * approved: 填写false
+
+旧合约地址：
+0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3
+
+0x8788f32939ff2a8eb014877fc734ff77aa8aa148
+
+0x8ACcaa4b940eaFC41b33159027cDBDb4A567d442
 
 
-*第一次使用需要先approve*
+2.调用approve(单个角色授权)
+> * to: 填写零地址或其他自己的地址: 0x0000000000000000000000000000000000000000
+> * tokenId: 填写你拥有的角色id
+
+
 ### 如何approve：
 [在区块浏览器打开rarity](https://ftmscan.com/address/0xce761d788df608bd21bdd59d6f4b54b2e27f25bb#writeContract)
 
 1.调用setApprovalForAll(一键授权所有)
-> * operator: 填写MultipleRarity合约地址: 0x8788f32939ff2a8eb014877fc734ff77aa8aa148
+> * operator: 填写MultipleRarity合约地址: 
 > * approved: 填写true
 
-![image](https://user-images.githubusercontent.com/20993492/132890380-678de795-7be2-4299-a7e1-d26cd2870ce2.png)
 
 2.调用approve(单个角色授权)
-> * to: 填写MultipleRarity合约地址: 0x8788f32939ff2a8eb014877fc734ff77aa8aa148
+> * to: 填写MultipleRarity合约地址: 
 > * tokenId: 填写你拥有的角色id
 
-![image](https://user-images.githubusercontent.com/20993492/132890454-3faa4f68-b273-45f3-8882-babaaf1e3261.png)
 
 
 
-### 如何使用该合约：
-[在区块浏览器打开MultipleRarity](https://ftmscan.com/address/0x8788f32939ff2a8eb014877fc734ff77aa8aa148#writeContract)
+### 使用说明
 
-1.调用multiple_adventure(多角色同时冒险)
-> * _summoners: 填多个角色id，例[21,22,23,24,25,26]
-> 
-> 注: *须当角色冒险时间已到，并且approve过给该合约*
-> 
-> *FTM 矿工现在的block gaslimit太小了，太多角色容易超出block gaslimit，单次操作的角色数量控制在130以内最好; 同时矿工却还不断提高 minimum gas price，这就有点不厚道了*
-  
-
-
-![image](https://user-images.githubusercontent.com/20993492/132503821-be600618-4e33-453b-84bd-c7750465a85e.png)
-
-其他功能multiple_spend_xp，multiple_level_up同样支持了多角色，自行使用。
-
-可配合网站：https://rarity-game.netlify.app/, 观察自己所有角色的ID和冒险冷却时间
+> * 更新中
 
 
 
@@ -175,3 +178,6 @@ DFarm yyds!
 在区块浏览器打开[rarity_gold](https://ftmscan.com/address/0x2069B76Afe6b734Fb65D1d099E7ec64ee9CC76B2#writeContract)
 ![image](https://user-images.githubusercontent.com/20993492/132827633-68807f22-cbdc-473b-a0bc-7be80d76c61e.png)
 
+
+
+### 感谢[DFarm](https://weibo.com/u/6112840709)曾指出合约批量升级错误, 非常抱歉给大家带来使用不便。
