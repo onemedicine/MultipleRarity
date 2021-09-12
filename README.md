@@ -31,6 +31,7 @@
 > * approved: 填写false
 
 旧合约地址：
+
 0xB3e2dEa302f43Df164758f1A8Ded7Ac6C87741b3
 
 0x8788f32939ff2a8eb014877fc734ff77aa8aa148
@@ -41,6 +42,11 @@
 2.调用approve(单个角色授权)
 > * to: 填写零地址或其他自己的地址: 0x0000000000000000000000000000000000000000
 > * tokenId: 填写你拥有的角色id
+
+撤销过后可以查询确认一下，如下图分别为两种方式的成功撤销：
+
+![image](https://user-images.githubusercontent.com/20993492/132992089-52225b4f-8109-4f4c-ab90-5bf10e78e9a7.png)
+
 
 
 ### 如何approve：
