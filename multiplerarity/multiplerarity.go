@@ -32,7 +32,7 @@ var (
 
 // MultiplerarityMetaData contains all meta data concerning the Multiplerarity contract.
 var MultiplerarityMetaData = &bind.MetaData{
-	ABI: "[{\"inputs\":[{\"internalType\":\"uint256[]\",\"name\":\"_summoners\",\"type\":\"uint256[]\"}],\"name\":\"multiple_adventure\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256[]\",\"name\":\"_summoners\",\"type\":\"uint256[]\"}],\"name\":\"multiple_level_up\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256[]\",\"name\":\"_summoners\",\"type\":\"uint256[]\"},{\"internalType\":\"uint256[]\",\"name\":\"_xps\",\"type\":\"uint256[]\"}],\"name\":\"multiple_spend_xp\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}]",
+	ABI: "[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"destroy\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256[]\",\"name\":\"_summoners\",\"type\":\"uint256[]\"}],\"name\":\"multiple_adventure\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256[]\",\"name\":\"_summoners\",\"type\":\"uint256[]\"}],\"name\":\"multiple_adventure_crafting_materials\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256[]\",\"name\":\"_summoners\",\"type\":\"uint256[]\"}],\"name\":\"multiple_claim_gold\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256[]\",\"name\":\"_summoners\",\"type\":\"uint256[]\"}],\"name\":\"multiple_level_up\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256[]\",\"name\":\"_summoners\",\"type\":\"uint256[]\"},{\"internalType\":\"uint256[]\",\"name\":\"_xps\",\"type\":\"uint256[]\"}],\"name\":\"multiple_spend_xp\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}]",
 }
 
 // MultiplerarityABI is the input ABI used to generate the binding from.
@@ -181,6 +181,27 @@ func (_Multiplerarity *MultiplerarityTransactorRaw) Transact(opts *bind.Transact
 	return _Multiplerarity.Contract.contract.Transact(opts, method, params...)
 }
 
+// Destroy is a paid mutator transaction binding the contract method 0x83197ef0.
+//
+// Solidity: function destroy() returns()
+func (_Multiplerarity *MultiplerarityTransactor) Destroy(opts *bind.TransactOpts) (*types.Transaction, error) {
+	return _Multiplerarity.contract.Transact(opts, "destroy")
+}
+
+// Destroy is a paid mutator transaction binding the contract method 0x83197ef0.
+//
+// Solidity: function destroy() returns()
+func (_Multiplerarity *MultipleraritySession) Destroy() (*types.Transaction, error) {
+	return _Multiplerarity.Contract.Destroy(&_Multiplerarity.TransactOpts)
+}
+
+// Destroy is a paid mutator transaction binding the contract method 0x83197ef0.
+//
+// Solidity: function destroy() returns()
+func (_Multiplerarity *MultiplerarityTransactorSession) Destroy() (*types.Transaction, error) {
+	return _Multiplerarity.Contract.Destroy(&_Multiplerarity.TransactOpts)
+}
+
 // MultipleAdventure is a paid mutator transaction binding the contract method 0x95b88cc5.
 //
 // Solidity: function multiple_adventure(uint256[] _summoners) returns()
@@ -200,6 +221,48 @@ func (_Multiplerarity *MultipleraritySession) MultipleAdventure(_summoners []*bi
 // Solidity: function multiple_adventure(uint256[] _summoners) returns()
 func (_Multiplerarity *MultiplerarityTransactorSession) MultipleAdventure(_summoners []*big.Int) (*types.Transaction, error) {
 	return _Multiplerarity.Contract.MultipleAdventure(&_Multiplerarity.TransactOpts, _summoners)
+}
+
+// MultipleAdventureCraftingMaterials is a paid mutator transaction binding the contract method 0x6d5c407e.
+//
+// Solidity: function multiple_adventure_crafting_materials(uint256[] _summoners) returns()
+func (_Multiplerarity *MultiplerarityTransactor) MultipleAdventureCraftingMaterials(opts *bind.TransactOpts, _summoners []*big.Int) (*types.Transaction, error) {
+	return _Multiplerarity.contract.Transact(opts, "multiple_adventure_crafting_materials", _summoners)
+}
+
+// MultipleAdventureCraftingMaterials is a paid mutator transaction binding the contract method 0x6d5c407e.
+//
+// Solidity: function multiple_adventure_crafting_materials(uint256[] _summoners) returns()
+func (_Multiplerarity *MultipleraritySession) MultipleAdventureCraftingMaterials(_summoners []*big.Int) (*types.Transaction, error) {
+	return _Multiplerarity.Contract.MultipleAdventureCraftingMaterials(&_Multiplerarity.TransactOpts, _summoners)
+}
+
+// MultipleAdventureCraftingMaterials is a paid mutator transaction binding the contract method 0x6d5c407e.
+//
+// Solidity: function multiple_adventure_crafting_materials(uint256[] _summoners) returns()
+func (_Multiplerarity *MultiplerarityTransactorSession) MultipleAdventureCraftingMaterials(_summoners []*big.Int) (*types.Transaction, error) {
+	return _Multiplerarity.Contract.MultipleAdventureCraftingMaterials(&_Multiplerarity.TransactOpts, _summoners)
+}
+
+// MultipleClaimGold is a paid mutator transaction binding the contract method 0x318cb02d.
+//
+// Solidity: function multiple_claim_gold(uint256[] _summoners) returns()
+func (_Multiplerarity *MultiplerarityTransactor) MultipleClaimGold(opts *bind.TransactOpts, _summoners []*big.Int) (*types.Transaction, error) {
+	return _Multiplerarity.contract.Transact(opts, "multiple_claim_gold", _summoners)
+}
+
+// MultipleClaimGold is a paid mutator transaction binding the contract method 0x318cb02d.
+//
+// Solidity: function multiple_claim_gold(uint256[] _summoners) returns()
+func (_Multiplerarity *MultipleraritySession) MultipleClaimGold(_summoners []*big.Int) (*types.Transaction, error) {
+	return _Multiplerarity.Contract.MultipleClaimGold(&_Multiplerarity.TransactOpts, _summoners)
+}
+
+// MultipleClaimGold is a paid mutator transaction binding the contract method 0x318cb02d.
+//
+// Solidity: function multiple_claim_gold(uint256[] _summoners) returns()
+func (_Multiplerarity *MultiplerarityTransactorSession) MultipleClaimGold(_summoners []*big.Int) (*types.Transaction, error) {
+	return _Multiplerarity.Contract.MultipleClaimGold(&_Multiplerarity.TransactOpts, _summoners)
 }
 
 // MultipleLevelUp is a paid mutator transaction binding the contract method 0x7b95901e.

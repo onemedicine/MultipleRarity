@@ -1,5 +1,17 @@
 [
 	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [],
+		"name": "destroy",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
 		"inputs": [
 			{
 				"internalType": "uint256[]",
@@ -8,6 +20,32 @@
 			}
 		],
 		"name": "multiple_adventure",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "_summoners",
+				"type": "uint256[]"
+			}
+		],
+		"name": "multiple_adventure_crafting_materials",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "_summoners",
+				"type": "uint256[]"
+			}
+		],
+		"name": "multiple_claim_gold",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
