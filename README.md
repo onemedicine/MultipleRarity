@@ -31,6 +31,9 @@
 > * 4.批量打地牢multiple_adventure_crafting_materials()，rarity_crafting_materials合约原因，仅支持调用approve为角色授权
 > 
 > * 5.批量消耗经验multiple_spend_xp(), 猜想将来AC肯定有其他合约调用该接口实现某种玩法，应该永远不会单独排上用场了，留着仅为把自己挖的坑给埋上。
+> 
+> * 6.单次传入太多角色id会超出block gaslimit，数量控制在130个左右较好。
+
 
 **传参示例：**
 
