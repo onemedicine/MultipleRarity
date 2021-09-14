@@ -32,6 +32,10 @@
 > 
 > * 5.批量消耗经验multiple_spend_xp(), 猜想将来AC肯定有其他合约调用该接口实现某种玩法，应该永远不会单独排上用场了，留着仅为把自己挖的坑给埋上。
 
+**传参示例：**
+
+![image](https://user-images.githubusercontent.com/20993492/133186363-239a8be6-e77b-46b5-ad68-616da0771e0e.png)
+
 ------
 
 
